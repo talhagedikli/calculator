@@ -26,7 +26,7 @@ body {
     flex-direction: column;
 }
 
-.resultScreen {
+.result-screen {
     height: 50px;
     border: 1px solid black;
     display: flex;
