@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultScreen {
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
